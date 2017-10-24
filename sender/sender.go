@@ -2,12 +2,14 @@ package sender
 
 import (
 	"fmt"
-	cmodel "github.com/open-falcon/common/model"
+	"strconv"
+
 	"github.com/51idc/transfer/g"
 	"github.com/51idc/transfer/proc"
 	cpool "github.com/51idc/transfer/sender/conn_pool"
-	nlist "github.com/toolkits/container/list"
 	log "github.com/cihub/seelog"
+	cmodel "github.com/open-falcon/common/model"
+	nlist "github.com/toolkits/container/list"
 )
 
 const (
@@ -188,6 +190,9 @@ func convert2TsdbItem(d *cmodel.MetaData) *cmodel.TsdbItem {
 		t.Tags[k] = v
 	}
 	t.Tags["endpoint"] = d.Endpoint
+	t.Tags["counter"] = d.CounterType
+	t.Tags["step"] = strconv.Itoa(int(d.Step))
+
 	t.Metric = d.Metric
 	t.Timestamp = d.Timestamp
 	t.Value = d.Value
