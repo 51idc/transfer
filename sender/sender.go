@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/51idc/transfer/g"
-	"github.com/51idc/transfer/proc"
-	cpool "github.com/51idc/transfer/sender/conn_pool"
+	"github.com/anchnet/transfer/g"
+	"github.com/anchnet/transfer/proc"
+	cpool "github.com/anchnet/transfer/sender/conn_pool"
 	log "github.com/cihub/seelog"
 	cmodel "github.com/open-falcon/common/model"
 	nlist "github.com/toolkits/container/list"

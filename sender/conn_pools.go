@@ -1,8 +1,8 @@
 package sender
 
 import (
-	"github.com/51idc/transfer/g"
-	cpool "github.com/51idc/transfer/sender/conn_pool"
+	"github.com/anchnet/transfer/g"
+	cpool "github.com/anchnet/transfer/sender/conn_pool"
 	nset "github.com/toolkits/container/set"
 )
 

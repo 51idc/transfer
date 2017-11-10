@@ -1,8 +1,8 @@
 package receiver
 
 import (
-	"github.com/51idc/transfer/receiver/rpc"
-	"github.com/51idc/transfer/receiver/socket"
+	"github.com/anchnet/transfer/receiver/rpc"
+	"github.com/anchnet/transfer/receiver/socket"
 )
 
 func Start() {

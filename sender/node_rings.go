@@ -3,7 +3,7 @@ package sender
 import (
 	"sort"
 
-	"github.com/51idc/transfer/g"
+	"github.com/anchnet/transfer/g"
 	"github.com/toolkits/consistent"
 )
 

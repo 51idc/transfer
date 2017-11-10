@@ -2,7 +2,7 @@ package http
 
 import (
 	"fmt"
-	"github.com/51idc/transfer/g"
+	"github.com/anchnet/transfer/g"
 	"github.com/toolkits/file"
 	"net/http"
 	"strings"

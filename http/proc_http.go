@@ -2,8 +2,8 @@ package http
 
 import (
 	cutils "github.com/open-falcon/common/utils"
-	"github.com/51idc/transfer/proc"
-	"github.com/51idc/transfer/sender"
+	"github.com/anchnet/transfer/proc"
+	"github.com/anchnet/transfer/sender"
 	"net/http"
 	"strconv"
 	"strings"

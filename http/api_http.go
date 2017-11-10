@@ -3,7 +3,7 @@ package http
 import (
 	"encoding/json"
 	cmodel "github.com/open-falcon/common/model"
-	trpc "github.com/51idc/transfer/receiver/rpc"
+	trpc "github.com/anchnet/transfer/receiver/rpc"
 	"net/http"
 )
 

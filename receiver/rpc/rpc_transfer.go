@@ -4,9 +4,9 @@ import (
 	"fmt"
 	cmodel "github.com/open-falcon/common/model"
 	cutils "github.com/open-falcon/common/utils"
-	"github.com/51idc/transfer/g"
-	"github.com/51idc/transfer/proc"
-	"github.com/51idc/transfer/sender"
+	"github.com/anchnet/transfer/g"
+	"github.com/anchnet/transfer/proc"
+	"github.com/anchnet/transfer/sender"
 	"strconv"
 	"time"
 )

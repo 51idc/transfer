@@ -3,11 +3,11 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/51idc/transfer/g"
-	"github.com/51idc/transfer/http"
-	"github.com/51idc/transfer/proc"
-	"github.com/51idc/transfer/receiver"
-	"github.com/51idc/transfer/sender"
+	"github.com/anchnet/transfer/g"
+	"github.com/anchnet/transfer/http"
+	"github.com/anchnet/transfer/proc"
+	"github.com/anchnet/transfer/receiver"
+	"github.com/anchnet/transfer/sender"
 	"os"
 )
 

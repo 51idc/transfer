@@ -2,7 +2,7 @@ package http
 
 import (
 	"encoding/json"
-	"github.com/51idc/transfer/g"
+	"github.com/anchnet/transfer/g"
 	log "github.com/cihub/seelog"
 	"net/http"
 	_ "net/http/pprof"

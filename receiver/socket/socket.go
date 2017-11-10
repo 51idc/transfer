@@ -1,7 +1,7 @@
 package socket
 
 import (
-	"github.com/51idc/transfer/g"
+	"github.com/anchnet/transfer/g"
 	log "github.com/cihub/seelog"
 	"net"
 )

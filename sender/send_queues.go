@@ -1,7 +1,7 @@
 package sender
 
 import (
-	"github.com/51idc/transfer/g"
+	"github.com/anchnet/transfer/g"
 	nlist "github.com/toolkits/container/list"
 )
 

@@ -1,7 +1,7 @@
 package sender
 
 import (
-	"github.com/51idc/transfer/proc"
+	"github.com/anchnet/transfer/proc"
 	"github.com/toolkits/container/list"
 	log "github.com/cihub/seelog"
 	"strings"
