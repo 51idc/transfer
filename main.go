@@ -26,6 +26,11 @@ func main() {
 		os.Exit(0)
 	}
 
+	if  !g.CheckMac(){
+		fmt.Println("No move without permission")
+		os.Exit(0)
+	}
+
 	// global config
 	g.ParseConfig(*cfg)
 

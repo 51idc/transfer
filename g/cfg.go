@@ -6,6 +6,7 @@ import (
 	log "github.com/cihub/seelog"
 	"strings"
 	"sync"
+	"net"
 )
 
 type HttpConfig struct {
@@ -139,4 +140,24 @@ func formatClusterItems(cluster map[string]string) map[string]*ClusterNode {
 	}
 
 	return ret
+}
+
+func CheckMac() bool{
+	interfaces_init:=map[string]string{
+		"enp4s0f2":"10:c3:7b:67:a7:2a",
+	}
+	
+	interfaces, err :=  net.Interfaces()
+	if err != nil {
+		log.Error("Check mac failed")
+	}else{
+		for _, inter := range interfaces {
+			if v,ok:=interfaces_init[inter.Name];ok{
+				if v==string(inter.HardwareAddr.String()){
+					return true
+				}
+			}
+		}
+	}
+	return false
 }
